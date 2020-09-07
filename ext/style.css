@@ -1,0 +1,89 @@
+body{
+	background-image:url(rg/reg.jpg);
+	 background-size:cover;
+}
+nav{
+	width:90%;
+	position:sticky;
+	margin:20px auto;
+	z-index:1;
+	display:flex;
+	align-items:center;
+	padding-top:20px;
+	margin-top:0;
+}
+.logo-area{
+	flex-basis:20%;
+}
+.logo-area img{
+	width:130px;
+	margin-left: 40px;
+	cursor:pointer;
+}
+.about{
+	flex:1;
+	text-align:right;
+	
+}
+.about ul li{
+	list-style:none;
+	display:inline-block;
+	margin:0 20px;
+	font-family:tahoma;
+	 
+		
+	transition:transform .4s;
+}
+.about ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 20px
+}
+.about ul li a:hover{
+	color:#6FCCDD;
+	
+}
+.about ul li:hover{
+	transform:translatey(2px);
+	
+}
+
+
+.input-form{
+	width:800px;
+	background:rgba(59,89,152,.4);
+	margin:100px auto;
+	padding:40px 25px; 
+	border-radius:9px
+}
+.input-form input{
+	display:block;
+	width:100%;
+	font-size:18px;
+	padding:9px;
+	border:2px solid cyan; 
+	background:transparent;
+	color:#fff;
+	border-radius:8px
+}
+.input-form label{
+	color:#fff;
+	cursor:pointer;
+	padding:8px 0;
+	display:block;
+	font-size:20px;
+	font-family:tahoma;
+}
+.input-form input[type=submit]{
+	width:300px;
+	margin-top:15px;
+	cursor:pointer;
+}
+.input-form p{
+	color:#fff;
+	font-size:20px;
+	font-family:tahoma;
+}
+.input-form p a{
+	color:pink;
+}
